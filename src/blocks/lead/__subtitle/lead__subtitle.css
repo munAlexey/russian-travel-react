@@ -1,0 +1,31 @@
+.lead__subtitle {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.25;
+  text-align: center;
+  color: #ffffff;
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .lead__subtitle {
+    font-size: 30px;
+    line-height: 36px;
+    width: calc(100% - 16.6%);
+    align-self: center;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lead__subtitle {
+    width: calc(100% - 31%);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .lead__subtitle {
+    width: calc(100% - 34.9%);
+  }
+}

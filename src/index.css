@@ -1,13 +1,86 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+/* normalize */
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+@import url('./vendor/normalize.css');
+
+/* fonts */
+
+@import url('./vendor/fonts.css');
+
+@import url('./blocks/page/page.css');
+
+/* mix link */
+
+@import url('./blocks/link/link.css');
+
+/* section title & subtitle */
+
+@import url('./blocks/section-title/section-title.css');
+@import url('./blocks/section-subtitle/section-subtitle.css');
+
+/* header */
+
+@import url('./blocks/header/header.css');
+@import url('./blocks/header/__block/header__block.css');
+@import url('./blocks/header/__img/header__img.css');
+@import url('./blocks/header/__lang/header__lang.css');
+@import url('./blocks/header/__link/header__link.css');
+@import url('./blocks/header/__logo/header__logo.css');
+@import url('./blocks/header/__link/_active/header__link_active.css');
+
+/* content */
+
+@import url('./blocks/content/content.css');
+
+/* section lead */
+
+@import url('./blocks/lead/lead.css');
+@import url('./blocks/lead/__caption/lead__caption.css');
+@import url('./blocks/lead/__img/lead__img.css');
+@import url('./blocks/lead/__subtitle/lead__subtitle.css');
+@import url('./blocks/lead/__title/lead__title.css');
+
+/* section intro */
+
+@import url('./blocks/intro/intro.css');
+@import url('./blocks/intro/__list/intro__list.css');
+@import url('./blocks/intro/__item/intro__item.css');
+@import url('./blocks/intro/__span-accent/intro__span-accent.css');
+@import url('./blocks/intro/__title/intro__title.css');
+@import url('./blocks/intro/__subtitle/intro__subtitle.css');
+
+/* section photo-grid */
+
+@import url('./blocks/photo-grid/photo-grid.css');
+@import url('./blocks/photo-grid/__img/photo-grid__img.css');
+@import url('./blocks/photo-grid/__list/photo-grid__list.css');
+
+/* section places */
+
+@import url('./blocks/places/places.css');
+@import url('./blocks/places/__item/places__item.css');
+@import url('./blocks/places/__link/places__link.css');
+@import url('./blocks/places/__list/places__list.css');
+@import url('./blocks/places/__title/places__title.css');
+@import url('./blocks/places/__block-links/places__block-links.css');
+@import url('./blocks/places/__url/places__url.css');
+@import url('./blocks/places/__img/places__img.css');
+@import url('./blocks/places/__text/places__text.css');
+@import url('./blocks/places/__subtitle/places__subtitle.css');
+
+/* section cover */
+
+@import url('./blocks/cover/cover.css');
+@import url('./blocks/cover/__subtitle/cover__subtitle.css');
+@import url('./blocks/cover/__block/cover__block.css');
+@import url('./blocks/cover/__block/_hover/cover__block_hover.css');
+@import url('./blocks/cover/__title/cover__title.css');
+@import url('./blocks/cover/__link/cover__link.css');
+
+/* footer */
+
+@import url('./blocks/footer/footer.css');
+@import url('./blocks/footer/__nav/footer__nav.css');
+@import url('./blocks/footer/__item/footer__item.css');
+@import url('./blocks/footer/__link/footer__link.css');
+@import url('./blocks/footer/__list/footer__list.css');
+@import url('./blocks/footer/__copy/footer__copy.css');

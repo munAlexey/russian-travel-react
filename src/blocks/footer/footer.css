@@ -1,0 +1,25 @@
+@media screen and (min-width: 768px) {
+  .footer {
+    display: grid;
+    grid-template-columns: 64.58% auto;
+    gap: 69px;
+    margin: 0 auto;
+    width: calc(100% - 6.25%);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .footer {
+    gap: 277px;
+    width: calc(100% - 9.375%);
+    grid-template-columns: 50.1% auto;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .footer {
+    gap: 533px;
+    grid-template-columns: 39.27% auto;
+    width: 1184px;
+  }
+}

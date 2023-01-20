@@ -1,0 +1,17 @@
+.places__url {
+  text-transform: uppercase;
+  color: #aaaaaa;
+  margin: 0 0 12px;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 2px;
+}
+
+@media screen and (min-width: 768px) {
+  .places__url {
+    grid-area: text;
+  }
+}

@@ -1,0 +1,17 @@
+.lead {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 1024px) {
+  .lead {
+    width: calc(100% - 9.375%);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .lead {
+    width: 984px;
+  }
+}

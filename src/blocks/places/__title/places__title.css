@@ -1,0 +1,10 @@
+.places__title {
+  margin: 0 auto 32px;
+  width: 90%;
+}
+
+@media screen and (min-width: 768px) {
+  .places__title {
+    width: 100%;
+  }
+}
