@@ -8,10 +8,6 @@
 
 Проект Russian-travel. Проект о путешествии по России.
 
-**Gh-pages**
-
-* [Ссылка на Gh-pages](https://munalexey.github.io/mesto-react/)
-
 **Инструменты**
 
 1. Гриды
