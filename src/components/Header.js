@@ -1,8 +1,10 @@
 import React from "react";
 import logo from "../img/320-768/logo.svg";
+import { CurrentLangContext } from "../context/CurrentLangContext";
 
 function Header(props) {
-  const {isSwitch, onChangeRu, onChangeEn} = props;
+  const {onChangeRu, onChangeEn} = props;
+  const lang = React.useContext(CurrentLangContext);
   return (
     <header className="header">
       <div className="header__block">
@@ -11,10 +13,10 @@ function Header(props) {
         </a>
         <ul className="header__lang">
           <li>
-              <button className={`header__link ${isSwitch ? "header__link_active" : ""}` } onClick={onChangeRu} >Ru</button>
+              <button className={`header__link ${lang ? "header__link_active" : ""}` } onClick={onChangeRu} >Ru</button>
           </li>
           <li>
-              <button className={`header__link ${isSwitch ? "" : "header__link_active"}`} onClick={onChangeEn} >En</button>
+              <button className={`header__link ${lang ? "" : "header__link_active"}`} onClick={onChangeEn} >En</button>
           </li>
         </ul>
       </div>
